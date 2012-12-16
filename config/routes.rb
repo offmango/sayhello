@@ -1,4 +1,9 @@
 Sayhello::Application.routes.draw do
+  
+  root :to => 'hellos#index'
+
+  resources :hellos, only: [:index, :new]
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
