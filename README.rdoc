@@ -15,3 +15,4 @@ Some documentation I'll be using:
 * HTML Media Capture spec: link:http://dev.w3.org/2009/dap/camera/
 
 * Reading local files in Javascript: link:http://www.html5rocks.com/en/tutorials/file/dndfiles/
+
