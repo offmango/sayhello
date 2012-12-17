@@ -1,6 +1,6 @@
 Sayhello::Application.routes.draw do
   
-  root :to => 'hellos#index'
+  root :to => 'hellos#new'
 
   resources :hellos, only: [:index, :new]
 
