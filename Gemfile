@@ -6,12 +6,16 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'thin'
+gem "paperclip", "~> 3.0"
+gem 'aws-s3'
 
 group :development, :test do
 	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'guard-rspec'
 	gem 'guard-spork'
+    gem 'rb-fsevent', '~> 0.9.1' # for guard
 	gem 'spork'
 	gem 'shoulda-matchers'
 end
